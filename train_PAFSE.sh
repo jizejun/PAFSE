@@ -82,7 +82,7 @@ train_icews0515() {
 }
 
 train_gdelt() {
-    run_training "GDELT" 10000 2000 400 0.2 0.001 0.001
+    run_training "GDELT" 8000 2000 400 0.2 0.001 0.001
 }
 
 case "${TARGET}" in
